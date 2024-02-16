@@ -26,7 +26,7 @@
 <body class="text-lg ">
     <div class=" fixed w-full z-40 bg-white shadow-xl px-4 md:px-0">
         <div class="flex justify-between items-center  md:space-x-12  py-12 max-w-6xl mx-auto " id="menuContainer">
-            <a href="index.html"> <img src="images/logo.png" class="h-4 md:h-6" alt=""></a>
+            <a href="index.html"> <img src="images/logo.png" class="h-4 md:h-8" alt=""></a>
             <button class="md:hidden" onclick="toggleMenu()"><svg id="hamburger" class="h-8 fill-current text-blue-600"
                     clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -36,15 +36,15 @@
                 </svg></button>
             <div class="md:flex md:space-x-8 mt-12 md:mt-0 hidden" id="menuItems">
                 <a href="#about"
-                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center">About</a>
+                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center transition delay-45">About</a>
                 <a href="#services"
-                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center">Services</a>
+                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center  transition delay-45">Services</a>
                 <a href="#mission"
-                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center">Mission</a>
+                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center  transition delay-45">Mission</a>
                 <a href="#vision"
-                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center">Vision</a>
+                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center  transition delay-45">Vision</a>
                 <a href="#contact"
-                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center">Contact</a>
+                    class="hover:border-blue-600 border-b-4 border-white md:inline block text-center  transition delay-45">Contact</a>
                 <svg onclick="toggleMenu()" class="md:hidden h-8 mt-12 fill-current text-blue-600 mx-auto"
                     clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -315,22 +315,21 @@
 
     </section>
 
-    <section class="py-20 bg-black text-white px-4 mt-12">
+    <section class="py-20 bg-blue-50 text-black px-4 mt-12">
 
         <div class="max-w-7xl mx-auto ">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center md:text-left space-y-12 md:space-y-0">
-                <div class=""><a href="index.html"><img src="images/logo.png" class="bg-white p-8 rounded-xl w-56"
-                            alt=""></a>
+                <div class=""><a href="index.html"><img src="images/logo.png" class=" p-8 rounded-xl w-56" alt=""></a>
 
 
                 </div>
                 <div class="space-y-2">
                     <p class="text-orange font-bold">Sections</p>
-                    <a href="#about" class="block">About</a>
-                    <a href="#services" class="block">Services</a>
-                    <a href="#mission" class="block">Mission</a>
-                    <a href="#vision" class="block">Vision</a>
-                    <a href="#contact" class="block">Contact</a>
+                    <a href="#about" class="block hover:text-blue-900 transition delay-45">About</a>
+                    <a href="#services" class="block hover:text-blue-900 transition delay-45">Services</a>
+                    <a href="#mission" class="block hover:text-blue-900 transition delay-45">Mission</a>
+                    <a href="#vision" class="block hover:text-blue-900 transition delay-45">Vision</a>
+                    <a href="#contact" class="block hover:text-blue-900 transition delay-45">Contact</a>
                 </div>
                 <div class="space-y-2">
                     <p class="text-orange font-bold">Address</p>
@@ -340,7 +339,7 @@
                 </div>
                 <a target="_blank" href="https://www.linkedin.com/in/prateek-darshan/" class=" group ">
                     <div
-                        class="h-full pt-16 border border-white hover:bg-white rounded-xl  hover:text-black flex items-end relative p-4 transition delay-45">
+                        class="h-full pt-16 border border-blue-900 hover:bg-blue-900 hover:text-white rounded-xl  hover:text-black flex items-end relative p-4 transition delay-45">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6 absolute top-2 right-2">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -355,8 +354,8 @@
 
 
             </div>
-            <div class="w-12 h-2  mx-auto bg-white my-14"></div>
-            <p class="ml-4 text-white text-center mt-12">&copy;2023 All rights reserved</p>
+            <div class="w-12 h-2  mx-auto bg-blue-900 my-14"></div>
+            <p class="ml-4 text-center mt-12">&copy;2023 All rights reserved</p>
         </div>
     </section>
     <script>
